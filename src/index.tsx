@@ -50,8 +50,6 @@ async function start() {
   document.body.appendChild(reactContainer);
 
   regl.frame(() => {
-    // canvas.width = window.innerWidth;
-    // canvas.height = window.innerHeight;
     state.camera.updateCamera();
     renderFrame({
       quaternion: [state.quaternion.x, state.quaternion.y, state.quaternion.z, state.quaternion.w],
