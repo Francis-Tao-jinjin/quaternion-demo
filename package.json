@@ -14,7 +14,7 @@
     "budo": "^11.6.3",
     "gl-matrix": "^2.6.1",
     "icosphere": "^1.0.0",
-    "jszip": "^3.1.5",
+    "jszip": "^3.7.0",
     "mouse-wheel": "^1.2.0",
     "mustreams": "^0.1.8",
     "react": "^16.11.0",
